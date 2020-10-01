@@ -194,6 +194,7 @@ h2 {
 }
 
 @media (max-width: 500px) {
+  
   .logo {
     font-size: 15px;
   }
