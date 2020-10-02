@@ -57,7 +57,7 @@ nav ul li {
 }
 
 .mainphoto {
-  height: 700px;
+  height: 900px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -116,7 +116,7 @@ h2 {
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-gap: 100px;
   display: grid;
-  height: 1200px;
+  height: 800px;
   width: 1200px;
   margin: 0 auto;
 }
@@ -137,6 +137,8 @@ h2 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  width: 250px;
+  height: 250px;
 }
 
 .imagethree {
@@ -146,6 +148,8 @@ h2 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  width: 250px;
+  height: 250px;
 }
 
 .imagefour {
@@ -155,6 +159,8 @@ h2 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  width: 250px;
+  height: 250px;
 }
 
 .imagefive {
@@ -164,6 +170,8 @@ h2 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  width: 250px;
+  height: 250px;
 }
 
 .socialmedia {
@@ -194,7 +202,6 @@ h2 {
 }
 
 @media (max-width: 500px) {
-  
   .logo {
     font-size: 15px;
   }
@@ -202,4 +209,10 @@ h2 {
     width: 100%;
     height: auto;
   }
+}
+
+h6 {
+  margin: 0 auto;
+  font-family: monospace;
+  color: #999999;
 }
